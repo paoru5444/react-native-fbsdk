@@ -282,7 +282,7 @@ const {
 
 const photoUri = 'file://' + '/path/of/photo.png'
 const sharePhotoContent = {
-  contentType = 'photo',
+  contentType: 'photo',
   photos: [{ imageUrl: photoUri }],
 }
 
@@ -303,7 +303,7 @@ const {
 
 const videoUri = 'file://' + '/path/of/video.mp4'
 const shareVideoContent = {
-  contentType = 'video',
+  contentType: 'video',
   video: { localUrl: videoUri },
 }
 
